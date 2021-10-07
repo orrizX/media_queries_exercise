@@ -12,6 +12,12 @@ body {
   
 }
 
+p.example{
+  font-style: italic;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 div.example {
     font-size: 80px;
     padding: 10px;
@@ -34,38 +40,50 @@ div.example {
     border: 3px solid black;
     background: rgb(20, 226, 37);
   }
+  p.example{
+  font-style: normal;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkblue;
+}
 }
 
 @media screen and (min-width: 900px) {
   body {
-    background-color: lavender;
+    background-color: rgb(8, 129, 123);
   }
   div.example {
     font-size: 30px;
     padding: 30px;
     border: none;
     background: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+  p.example{
+  font-size: 28px;
+  font-family: cursive;
+  color: lavenderblush;
+}
 }
 </style>
 </head>
 <body>
 
 <div class="example">Sonnet 18</div>
-<p>Shall I compare thee to a summer’s day?</p>
-<p>Thou art more lovely and more temperate:</p>
-<p>Rough winds do shake the darling buds of May,</p>
-<p>And summer’s lease hath all too short a date;</p>
-<p>Sometime too hot the eye of heaven shines,</p>
-<p>And often is his gold complexion dimm'd;</p>
-<p>And every fair from fair sometime declines,</p>
-<p>By chance or nature’s changing course untrimm'd;</p>
-<p>But thy eternal summer shall not fade,</p>
-<p>Nor lose possession of that fair thou ow’st;</p>
-<p>Nor shall death brag thou wander’st in his shade,</p>
-<p>When in eternal lines to time thou grow’st:</p>
-<p>So long as men can breathe or eyes can see,</p>
-<p>So long lives this, and this gives life to thee.</p>
+<p class="example">Shall I compare thee to a summer’s day?</p>
+<p class="example">Thou art more lovely and more temperate:</p>
+<p class="example">Rough winds do shake the darling buds of May,</p>
+<p class="example">And summer’s lease hath all too short a date;</p>
+<p class="example">Sometime too hot the eye of heaven shines,</p>
+<p class="example">And often is his gold complexion dimm'd;</p>
+<p class="example">And every fair from fair sometime declines,</p>
+<p class="example">By chance or nature’s changing course untrimm'd;</p>
+<p class="example">But thy eternal summer shall not fade,</p>
+<p class="example">Nor lose possession of that fair thou ow’st;</p>
+<p class="example">Nor shall death brag thou wander’st in his shade,</p>
+<p class="example">When in eternal lines to time thou grow’st:</p>
+<p class="example">So long as men can breathe or eyes can see,</p>
+<p class="example">So long lives this, and this gives life to thee.</p>
 
 </body>
 </html>
